@@ -17,16 +17,55 @@ struct Gradient: View{
             LinearGradient(colors: [.gray,.white], startPoint: .top , endPoint: .bottomLeading)
                 .ignoresSafeArea()
             
+           
+            
             VStack{
+                Spacer()
+                Spacer()
+                Spacer()
+              
+                
                 HStack{
+                  
+                    Spacer()
+                    
                     Text("New York")
                         .font(Font.system(size:40, weight: .bold))
-                        .foregroundColor(.white)
-                
+                        .foregroundColor(.black)
+                       
                     Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+        
                 }
+       
                 Spacer()
-                 
+                
+                Image("newyork")
+                
+        Spacer()
+               
+                ZStack{
+                    
+                    
+                    Color.gray
+                        .frame(width:350.0, height: 135.0)
+                    
+                        .padding(.top,20)
+                    
+                  
+                    Text("New York located where the Hudson and East rivers empty into one of the world's premier harbours, New York is both the gateway to the North American continent and its preferred exit to the oceans of the globe. Area 305 square miles (790 square km).")
+                        .font(Font.system(size:17, weight: .bold))
+                        .foregroundColor(.white)
+               
+                        
+            }
+                
+                Spacer()
+            
+           Spacer()
+                    .padding()
             }
         }
         
