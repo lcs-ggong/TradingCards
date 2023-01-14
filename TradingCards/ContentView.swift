@@ -7,20 +7,35 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+struct Gradient: View{
+
+    var body: some View{
+        
+        ZStack{
+            
+            
+            LinearGradient(colors: [.gray,.white], startPoint: .top , endPoint: .bottomLeading)
+                .ignoresSafeArea()
+            
+            VStack{
+                HStack{
+                    Text("New York")
+                        .font(Font.system(size:40, weight: .bold))
+                        .foregroundColor(.white)
+                
+                    Spacer()
+                }
+                Spacer()
+                 
+            }
         }
-        .padding()
+        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+
+struct Gradient_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Gradient()
     }
 }
