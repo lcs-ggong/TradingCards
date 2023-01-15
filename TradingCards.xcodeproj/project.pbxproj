@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		18420FFF297393200037AC07 /* dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18420FFE297393200037AC07 /* dream.swift */; };
 		184210012973CB270037AC07 /* Lotso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210002973CB260037AC07 /* Lotso.swift */; };
-		184210052973EA3F0037AC07 /* Tuotuo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210042973EA3F0037AC07 /* Tuotuo.swift */; };
+		184210052973EA3F0037AC07 /* Tuscan sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210042973EA3F0037AC07 /* Tuscan sun.swift */; };
+		184210072974AA390037AC07 /* newyork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210062974AA390037AC07 /* newyork.swift */; };
 		18DC6C4B29706C5F0043B66F /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */; };
 		18DC6C4D29706C600043B66F /* ContentVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4C29706C600043B66F /* ContentVeiw.swift */; };
 		18DC6C4F29706C670043B66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6C4E29706C670043B66F /* Assets.xcassets */; };
@@ -19,7 +20,8 @@
 /* Begin PBXFileReference section */
 		18420FFE297393200037AC07 /* dream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dream.swift; sourceTree = "<group>"; };
 		184210002973CB260037AC07 /* Lotso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotso.swift; sourceTree = "<group>"; };
-		184210042973EA3F0037AC07 /* Tuotuo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tuotuo.swift; sourceTree = "<group>"; };
+		184210042973EA3F0037AC07 /* Tuscan sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuscan sun.swift"; sourceTree = "<group>"; };
+		184210062974AA390037AC07 /* newyork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newyork.swift; sourceTree = "<group>"; };
 		18DC6C4729706C5F0043B66F /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		18DC6C4C29706C600043B66F /* ContentVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVeiw.swift; sourceTree = "<group>"; };
@@ -61,7 +63,8 @@
 				18DC6C4C29706C600043B66F /* ContentVeiw.swift */,
 				18420FFE297393200037AC07 /* dream.swift */,
 				184210002973CB260037AC07 /* Lotso.swift */,
-				184210042973EA3F0037AC07 /* Tuotuo.swift */,
+				184210042973EA3F0037AC07 /* Tuscan sun.swift */,
+				184210062974AA390037AC07 /* newyork.swift */,
 				18DC6C4E29706C670043B66F /* Assets.xcassets */,
 				18DC6C5029706C670043B66F /* Preview Content */,
 			);
@@ -150,7 +153,8 @@
 				18DC6C4B29706C5F0043B66F /* TradingCardsApp.swift in Sources */,
 				18420FFF297393200037AC07 /* dream.swift in Sources */,
 				184210012973CB270037AC07 /* Lotso.swift in Sources */,
-				184210052973EA3F0037AC07 /* Tuotuo.swift in Sources */,
+				184210052973EA3F0037AC07 /* Tuscan sun.swift in Sources */,
+				184210072974AA390037AC07 /* newyork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Tuotuo: View {
+struct Tuscansun: View {
     var body: some View {
       
         ZStack{
@@ -24,9 +24,10 @@ struct Tuotuo: View {
                     Color("grey3.0")
                     
                         .frame(width:340.0, height: 400.0)
-                        .cornerRadius(20)
+                        .cornerRadius(10)
                     
-                    Image("tuo")
+                    Image("sun")
+                        .frame(width:320.0, height: 380.0)
                         .cornerRadius(100)
                     
                 }
@@ -44,16 +45,13 @@ struct Tuotuo: View {
                         
                         HStack{
                             Spacer()
-                            Text("坨坨")
-                                .font(Font.system(size:45, weight: .bold))
+                            Text("Under the Tuscan Sun")
+                                .font(Font.system(size:35, weight: .bold))
                                 .foregroundColor(Color.white)
                             
                             Spacer()
                             
-                            Text("Tuotuo")
-                                .font(Font.system(size:45, weight: .bold))
-                                .foregroundColor(.white)
-                            Spacer()
+                            
                         }
                         .padding(5)}
                     
@@ -67,10 +65,10 @@ struct Tuotuo: View {
                 VStack{
                     HStack{
                         
-                        Text("Name: 坨坨 (Tuotuo)")
+                        Text("Director: Audrey Wells")
                         
                             .font(Font.system(size:27, weight: .bold))
-                            .frame(width:280.0, height: 60.0)
+                            .frame(width:330.0, height: 60.0)
                             .foregroundColor(.gray)
                         
                         Spacer()
@@ -79,10 +77,10 @@ struct Tuotuo: View {
                     
                     
                     HStack{
-                        Text("old: 3 years old")
+                        Text("Box office: 58.9 million USD")
                         
                             .font(Font.system(size:27, weight: .bold))
-                            .frame(width:210.0, height: 10.0)
+                            .frame(width:400.0, height: 5.0)
                             .foregroundColor(.gray)
                         Spacer()
                     }
@@ -90,10 +88,10 @@ struct Tuotuo: View {
                   
                     
                     HStack{
-                        Text("Tuotuo is the first cat my sister had, he is a British Blue, he is very fat, gentle and cute. I like it very much. ")
+                        Text("A writer impulsively buys a villa in Tuscany in order to change her life. Frances Mayes is a San Francisco-based literature professor, literary reviewer and author, who is struggling in writing her latest book")
                         
                             .font(Font.system(size:23, weight: .regular))
-                            .frame(width:350.0, height: 150.0)
+                            .frame(width:370.0, height: 180.0)
                             .foregroundColor(.white)
                         
                     }
@@ -112,6 +110,6 @@ struct Tuotuo: View {
 
 struct Tuotuo_Previews: PreviewProvider {
     static var previews: some View {
-        Tuotuo()
+        Tuscansun()
     }
 }
