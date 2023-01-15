@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18420FFF297393200037AC07 /* dream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18420FFE297393200037AC07 /* dream.swift */; };
 		18DC6C4B29706C5F0043B66F /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */; };
-		18DC6C4D29706C600043B66F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4C29706C600043B66F /* ContentView.swift */; };
+		18DC6C4D29706C600043B66F /* ContentVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4C29706C600043B66F /* ContentVeiw.swift */; };
 		18DC6C4F29706C670043B66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6C4E29706C670043B66F /* Assets.xcassets */; };
 		18DC6C5229706C670043B66F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6C5129706C670043B66F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18420FFE297393200037AC07 /* dream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dream.swift; sourceTree = "<group>"; };
 		18DC6C4729706C5F0043B66F /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
-		18DC6C4C29706C600043B66F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		18DC6C4C29706C600043B66F /* ContentVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVeiw.swift; sourceTree = "<group>"; };
 		18DC6C4E29706C670043B66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DC6C5129706C670043B66F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */,
-				18DC6C4C29706C600043B66F /* ContentView.swift */,
+				18DC6C4C29706C600043B66F /* ContentVeiw.swift */,
+				18420FFE297393200037AC07 /* dream.swift */,
 				18DC6C4E29706C670043B66F /* Assets.xcassets */,
 				18DC6C5029706C670043B66F /* Preview Content */,
 			);
@@ -137,8 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DC6C4D29706C600043B66F /* ContentView.swift in Sources */,
+				18DC6C4D29706C600043B66F /* ContentVeiw.swift in Sources */,
 				18DC6C4B29706C5F0043B66F /* TradingCardsApp.swift in Sources */,
+				18420FFF297393200037AC07 /* dream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

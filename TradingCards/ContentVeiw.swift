@@ -55,10 +55,11 @@ struct Gradient: View{
                         .padding(.top,20)
                     
                   
-                    Text("New York located where the Hudson and East rivers empty into one of the world's premier harbours, New York is both the gateway to the North American continent and its preferred exit to the oceans of the globe. Area 305 square miles (790 square km).")
+                    Text("New York located where the Hudson and East rivers empty into one of the world's premier harbours, New York is both the gateway to the North American continent and its preferred exit to the oceans of the globe. Area 305 square miles")
                         .font(Font.system(size:17, weight: .bold))
                         .foregroundColor(.white)
                
+                        .frame(width:350.0, height: 135.0)
                         
             }
                 
