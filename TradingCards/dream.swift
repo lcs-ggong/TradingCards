@@ -36,9 +36,16 @@ struct dream: View {
                 Spacer()
                
                 
+                
+                Text("Dreams")
+                    .font(Font.system(size:33, weight: .bold))
+                
+      
+                
+                
                 Color.white
                     .frame(width:260.0, height: 10.0)
-                    .padding(15)
+                    .padding(1)
                 
                 ZStack{
                     Color("lightyellow")
@@ -47,9 +54,12 @@ struct dream: View {
                         .cornerRadius(40)
                     Spacer()
                     Spacer()
-                    
-                    
-                    Text("lightyellow")
+               
+                  
+                    Text("The script of Dream presents eight dreams of Akira Kurosawa himself, which are Kurosawa's review and cherishing of life. It is as if we can see Akira Kurosawa saying in the mouth of an old man, It is a happy thing for people to do their part in the world and then die with a clear conscience.")
+                        .font(Font.system(size:22, weight: .regular))
+                        .frame(width:350.0, height: 280.0)
+                        .foregroundColor(.gray)
                 }
             }
             
