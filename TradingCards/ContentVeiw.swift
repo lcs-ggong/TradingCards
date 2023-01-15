@@ -29,7 +29,7 @@ struct Gradient: View{
                   
                     Spacer()
                     
-                    Text("New York")
+                    Text("La La Land")
                         .font(Font.system(size:40, weight: .bold))
                         .foregroundColor(.black)
                        
@@ -42,7 +42,7 @@ struct Gradient: View{
        
                 Spacer()
                 
-                Image("newyork")
+                Image("star")
                 
         Spacer()
                
@@ -50,17 +50,72 @@ struct Gradient: View{
                     
                     
                     Color.gray
-                        .frame(width:350.0, height: 135.0)
+                        .frame(width:350.0, height: 150.0)
+                        .cornerRadius(50)
                     
-                        .padding(.top,20)
-                    
-                  
-                    Text("New York located where the Hudson and East rivers empty into one of the world's premier harbours, New York is both the gateway to the North American continent and its preferred exit to the oceans of the globe. Area 305 square miles")
-                        .font(Font.system(size:17, weight: .bold))
-                        .foregroundColor(.white)
-               
-                        .frame(width:350.0, height: 135.0)
+                        .padding(.top,5)
+                   
+                    VStack{
                         
+                        HStack{
+                            Text("Released: 2016")
+                                .font(Font.system(size:17, weight: .bold))
+                                .foregroundColor(.white)
+                            
+                                .frame(width:250.0, height: 40.0)
+                             
+                            Spacer()
+                           
+                        }
+                      
+                        
+                        
+                        HStack{
+                            Text("Movie: La la land")
+                                .font(Font.system(size:17, weight: .bold))
+                                .foregroundColor(.white)
+                            
+                                .frame(width:260.0, height: 0)
+                             
+                            Spacer()
+                           
+                        }
+                        
+                        HStack{
+                            Text("Artists: Emma Stone, Ryan Gosling")
+                                .font(Font.system(size:17, weight: .bold))
+                                .foregroundColor(.white)
+                            
+                                .frame(width:400.0, height: 40)
+                             
+                            Spacer()
+                           
+                        }
+                        HStack{
+                            Text("Awards: Golden Globe Award for Best ")
+                                .font(Font.system(size:17, weight: .bold))
+                                .foregroundColor(.white)
+                            
+                                .frame(width:420.0, height: 0)
+                             
+                            Spacer()
+                           
+                        }
+                        
+                        HStack{
+                            Text("Original Song, MORE")
+                                .font(Font.system(size:17, weight: .bold))
+                                .foregroundColor(.white)
+                            
+                                .frame(width:420.0, height: 30)
+                            
+                            Spacer()
+                        }
+                        Spacer()
+                        Spacer()
+                        Spacer()
+                       
+                    }
             }
                 
                 Spacer()
