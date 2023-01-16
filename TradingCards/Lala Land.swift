@@ -20,9 +20,8 @@ struct LalaLand: View{
             
             
             VStack{
-                Spacer()
-                Spacer()
-                Spacer()
+                
+                
                 
                 
                 HStack{
@@ -41,22 +40,51 @@ struct LalaLand: View{
                 }
                 
                 Spacer()
+                Image("star")
                 Spacer()
-                
-                    Image("star")
-                    .frame(width:320.0, height: 400.0)
-                  
                 
              
                 
-                
-                
-                
-                
+                ZStack{
+                    Color.gray
+                        .frame(width:330.0, height: 170.0)
+                        .cornerRadius(20)
+                   
+                    
+                    VStack{
+                        HStack{
+                            
+                            Text("Director: Damien Chazelle")
+                            
+                                .font(Font.system(size:25, weight: .bold))
+                                .frame(width:400.0, height: 50.0)
+                                .foregroundColor(.white)
+                            
+                            Spacer()
+                            
+                        }
+                        
+                        
+                       
+                        
+                        HStack{
+                            
+                            Text("Box office: 447.4 million USD")
+                            
+                                .font(Font.system(size:25, weight: .bold))
+                                .frame(width:350.0, height: 50.0)
+                                .foregroundColor(.white)
+                            
+                            Spacer()
+                        }
+                      
+                    }
+                                    }
                 
                 
                 
             }
+            Spacer()
         }
     }
 }
