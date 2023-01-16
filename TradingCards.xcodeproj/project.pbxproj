@@ -12,7 +12,7 @@
 		184210052973EA3F0037AC07 /* Tuscan sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210042973EA3F0037AC07 /* Tuscan sun.swift */; };
 		184210092974ADAA0037AC07 /* Newyork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210082974ADAA0037AC07 /* Newyork.swift */; };
 		18DC6C4B29706C5F0043B66F /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */; };
-		18DC6C4D29706C600043B66F /* ContentVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4C29706C600043B66F /* ContentVeiw.swift */; };
+		18DC6C4D29706C600043B66F /* Lala Land.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4C29706C600043B66F /* Lala Land.swift */; };
 		18DC6C4F29706C670043B66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6C4E29706C670043B66F /* Assets.xcassets */; };
 		18DC6C5229706C670043B66F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6C5129706C670043B66F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -24,7 +24,7 @@
 		184210082974ADAA0037AC07 /* Newyork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newyork.swift; sourceTree = "<group>"; };
 		18DC6C4729706C5F0043B66F /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
-		18DC6C4C29706C600043B66F /* ContentVeiw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVeiw.swift; sourceTree = "<group>"; };
+		18DC6C4C29706C600043B66F /* Lala Land.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lala Land.swift"; sourceTree = "<group>"; };
 		18DC6C4E29706C670043B66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18DC6C5129706C670043B66F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,6 +40,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		181C40BB2974D22400B2B278 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		18DC6C3E29706C5F0043B66F = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */,
-				18DC6C4C29706C600043B66F /* ContentVeiw.swift */,
+				18DC6C4C29706C600043B66F /* Lala Land.swift */,
 				18420FFE297393200037AC07 /* dream.swift */,
 				184210002973CB260037AC07 /* Lotso.swift */,
 				184210042973EA3F0037AC07 /* Tuscan sun.swift */,
 				184210082974ADAA0037AC07 /* Newyork.swift */,
+				181C40BB2974D22400B2B278 /* New Group */,
 				18DC6C4E29706C670043B66F /* Assets.xcassets */,
 				18DC6C5029706C670043B66F /* Preview Content */,
 			);
@@ -149,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18DC6C4D29706C600043B66F /* ContentVeiw.swift in Sources */,
+				18DC6C4D29706C600043B66F /* Lala Land.swift in Sources */,
 				18DC6C4B29706C5F0043B66F /* TradingCardsApp.swift in Sources */,
 				18420FFF297393200037AC07 /* dream.swift in Sources */,
 				184210092974ADAA0037AC07 /* Newyork.swift in Sources */,
