@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct Tuscansun: View {
+    //MARK: Stored property
+    //Information to show on the card
+    let cardToShow: Movie
+    
+    //MARK: Computerd property
+    //Describes the user interface
     var body: some View {
       
         ZStack{
@@ -21,11 +27,15 @@ struct Tuscansun: View {
                 ZStack{
                     
                     Spacer()
+                    
+                    //"color"
                     Color("grey3.0")
                     
                         .frame(width:340.0, height: 400.0)
                         .cornerRadius(10)
                     
+                    
+                    //"image"
                     Image("sun")
                         .frame(width:320.0, height: 380.0)
                         .cornerRadius(100)
@@ -45,6 +55,8 @@ struct Tuscansun: View {
                         
                         HStack{
                             Spacer()
+                            
+                            // "name"
                             Text("Under the Tuscan Sun")
                                 .font(Font.system(size:35, weight: .bold))
                                 .foregroundColor(Color.white)
@@ -88,6 +100,8 @@ struct Tuscansun: View {
                   
                     
                     HStack{
+                        
+                        //"description"
                         Text("A writer impulsively buys a villa in Tuscany in order to change her life. Frances Mayes is a San Francisco-based literature professor, literary reviewer and author, who is struggling in writing her latest book")
                         
                             .font(Font.system(size:23, weight: .regular))
@@ -110,6 +124,6 @@ struct Tuscansun: View {
 
 struct Tuotuo_Previews: PreviewProvider {
     static var previews: some View {
-        Tuscansun()
+        Tuscansun(cardToShow: lotso)
     }
 }

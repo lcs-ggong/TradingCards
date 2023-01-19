@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct Newyork: View {
+    
+    //MARK: Stored property
+    //Information to show on the card
+    let cardToShow: Movie
+    
+    //MARK: Computerd property
+    //Describes the user interface
+    
     var body: some View {
         ZStack{
+            
+            //"color"
             Color("green2.0")
                 .ignoresSafeArea()
             
@@ -23,6 +33,8 @@ struct Newyork: View {
                         .frame(width:340.0, height: 450.0)
                         .cornerRadius(10)
                     
+                    
+                    //"image"
                     Image("new")
                         .frame(width:330.0, height: 450.0)
                         .cornerRadius(100)
@@ -42,6 +54,8 @@ struct Newyork: View {
                         
                         HStack{
                             Spacer()
+                            
+                            //"name"
                             Text("A Rainy Day in New York")
                                 .font(Font.system(size:30, weight: .bold))
                                 .foregroundColor(Color.gray)
@@ -87,6 +101,8 @@ struct Newyork: View {
                   
                     
                     HStack{
+                        
+                        //"description"
                         Text("The film follows the romantic exploits of two young college students, Gatsby and Ashleigh (Timothée Chalamet and Elle Fanning), while on a weekend visit to New York City, Gatsby's hometown.")
                         
                             .font(Font.system(size:23.5, weight: .regular))
@@ -109,6 +125,6 @@ struct Newyork: View {
 
 struct Newyork_Previews: PreviewProvider {
     static var previews: some View {
-        Newyork()
+        Newyork(cardToShow: lalaLand)
     }
 }

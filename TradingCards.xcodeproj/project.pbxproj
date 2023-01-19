@@ -11,6 +11,8 @@
 		184210012973CB270037AC07 /* Lotso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210002973CB260037AC07 /* Lotso.swift */; };
 		184210052973EA3F0037AC07 /* Tuscan sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210042973EA3F0037AC07 /* Tuscan sun.swift */; };
 		184210092974ADAA0037AC07 /* Newyork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184210082974ADAA0037AC07 /* Newyork.swift */; };
+		18A601BD2978BE000044875D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A601BC2978BE000044875D /* Movie.swift */; };
+		18A601BF2978C5690044875D /* MovieList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A601BE2978C5690044875D /* MovieList.swift */; };
 		18DC6C4B29706C5F0043B66F /* TradingCardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */; };
 		18DC6C4D29706C600043B66F /* Lala Land.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC6C4C29706C600043B66F /* Lala Land.swift */; };
 		18DC6C4F29706C670043B66F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DC6C4E29706C670043B66F /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		184210002973CB260037AC07 /* Lotso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lotso.swift; sourceTree = "<group>"; };
 		184210042973EA3F0037AC07 /* Tuscan sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuscan sun.swift"; sourceTree = "<group>"; };
 		184210082974ADAA0037AC07 /* Newyork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Newyork.swift; sourceTree = "<group>"; };
+		18A601BC2978BE000044875D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		18A601BE2978C5690044875D /* MovieList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieList.swift; sourceTree = "<group>"; };
 		18DC6C4729706C5F0043B66F /* TradingCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DC6C4A29706C5F0043B66F /* TradingCardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsApp.swift; sourceTree = "<group>"; };
 		18DC6C4C29706C600043B66F /* Lala Land.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Lala Land.swift"; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				184210002973CB260037AC07 /* Lotso.swift */,
 				184210042973EA3F0037AC07 /* Tuscan sun.swift */,
 				184210082974ADAA0037AC07 /* Newyork.swift */,
+				18A601BC2978BE000044875D /* Movie.swift */,
+				18A601BE2978C5690044875D /* MovieList.swift */,
 				181C40BB2974D22400B2B278 /* New Group */,
 				18DC6C4E29706C670043B66F /* Assets.xcassets */,
 				18DC6C5029706C670043B66F /* Preview Content */,
@@ -157,11 +163,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A601BD2978BE000044875D /* Movie.swift in Sources */,
 				18DC6C4D29706C600043B66F /* Lala Land.swift in Sources */,
 				18DC6C4B29706C5F0043B66F /* TradingCardsApp.swift in Sources */,
 				18420FFF297393200037AC07 /* dream.swift in Sources */,
 				184210092974ADAA0037AC07 /* Newyork.swift in Sources */,
 				184210012973CB270037AC07 /* Lotso.swift in Sources */,
+				18A601BF2978C5690044875D /* MovieList.swift in Sources */,
 				184210052973EA3F0037AC07 /* Tuscan sun.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

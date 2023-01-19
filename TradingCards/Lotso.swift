@@ -8,8 +8,16 @@
 import SwiftUI
 
 struct Lotso: View {
+    
+    //MARK: Stored property
+    //Information to show on the card
+    let cardToShow: Movie
+    
+    //MARK: Computerd property
+    //Describes the user interface
     var body: some View {
         ZStack{
+            //"color"
             Color("pink1.0")
                 .ignoresSafeArea()
             
@@ -25,6 +33,7 @@ struct Lotso: View {
                     Color.white
                         .frame(width:270.0, height: 340.0)
                     
+                    //"image"
                     Image("lotso")
                     
                 }
@@ -35,6 +44,7 @@ struct Lotso: View {
                 
                 HStack{
                     
+                    //"name"
                     Text("Lotso")
                         .font(Font.system(size:45, weight: .bold))
                         .foregroundColor(.white)
@@ -78,6 +88,8 @@ struct Lotso: View {
                         Spacer()
                         
                         HStack{
+                            
+                            //"description"
                             Text("Lotso is an old, pink stuffed teddy bear with a strawberry scent and a Southern accent, who uses a wooden toy mallet as a cane (he is still able to walk, even without it). He is first introduced riding over to Woody, Buzz, and the other toys in his dump truck.")
                             
                                 .font(Font.system(size:22, weight: .regular))
@@ -100,7 +112,7 @@ struct Lotso: View {
     
     struct Lotso_Previews: PreviewProvider {
         static var previews: some View {
-            Lotso()
+            Lotso(cardToShow: tuscansun)
         }
     }
 
