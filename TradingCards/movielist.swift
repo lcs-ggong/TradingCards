@@ -15,41 +15,42 @@ struct MovieList: View {
                 LalaLand(cardToShow: lalaLand)
             }, label: {
                 Text("Lala Land")
-                
             })
             
             
             NavigationLink(destination: {
-                LalaLand(cardToShow: Dream)
+                LalaLand(cardToShow: lalaLand)
             }, label: {
                 Text("Dream")
-                
             })
             
+            
             NavigationLink(destination: {
-                LalaLand(cardToShow: lotso)
+                LalaLand(cardToShow: lalaLand)
             }, label: {
                 Text("Lotso")
-                
             })
             
+            
             NavigationLink(destination: {
-                LalaLand(cardToShow: tuscansun)
+                LalaLand(cardToShow: lalaLand)
             }, label: {
                 Text("Tuscan sun")
-                
             })
             
+            
             NavigationLink(destination: {
-                LalaLand(cardToShow: newyork)
+                LalaLand(cardToShow: lalaLand)
             }, label: {
-                Text("A Rainy Day in New York")
-                
+                Text("New York")
             })
         }
             .navigationTitle("Trading Cards")
     }
 }
+
+
+
 
 struct MovieList_Previews: PreviewProvider {
     static var previews: some View {
